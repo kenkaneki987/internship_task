@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './DepartmentManagement.css';
 
 const DepartmentManagement = () => {
-  // Sample employees data for HOD selection
+  // Sample employees data for HOD selection (you can ignore this)
   const [employees] = useState([
     { id: 1, name: 'John Smith', position: 'Senior Manager' },
     { id: 2, name: 'Sarah Johnson', position: 'Director' },
