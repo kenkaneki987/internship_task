@@ -38,8 +38,7 @@ const EmployeeManagement = ({ departments }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Simulate Aadhaar verification
+
     const isAadhaarVerified = await verifyAadhaar(newEmployee.aadhaarNumber);
     
     const employeeData = {
@@ -65,10 +64,8 @@ const EmployeeManagement = ({ departments }) => {
       }
     });
   };
-
-  // Simulated Aadhaar verification function
   const verifyAadhaar = async (aadhaarNumber) => {
-    // In a real application, this would make an API call to verify the Aadhaar number
+    
     return new Promise(resolve => {
       setTimeout(() => {
         resolve(aadhaarNumber.length === 12);
