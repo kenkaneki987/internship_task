@@ -1,9 +1,5 @@
 # Business Management System
 
-A modern React-based web application for managing businesses, departments, and employees. Built with React, TypeScript, and Tailwind CSS.
-
-## Features
-
 ### Business Management
 - Business registration with detailed information
 - Business profile management
